@@ -1,15 +1,2 @@
 
-S
-java:S1854Z"7Remove this useless assignment to local variable "pts".(ª„ØN8­ƒÌÈ¬1
-<
-java:S1659U"Declare "b" on a separate line.(©í‘Û8·ƒÌÈ¬1
-d
-java:S1659V"BDeclare "ligas" and all following declarations on a separate line.(ûú­İøÿÿÿÿ8·ƒÌÈ¬1
-C
-java:S1481U"&Remove this unused "a" local variable.(©í‘Û8¹ƒÌÈ¬1
-C
-java:S1481U"&Remove this unused "b" local variable.(©í‘Û8¹ƒÌÈ¬1
-J
-java:S1481V"(Remove this unused "pts" local variable.(ûú­İøÿÿÿÿ8¹ƒÌÈ¬1
-G	java:S106l"+Replace this use of System.out by a logger.(˜ÈÁ™8½ƒÌÈ¬1
-L	java:S106p"+Replace this use of System.out by a logger.(ÌÔÕĞÿÿÿÿÿ8½ƒÌÈ¬1
+M	java:S106"+Replace this use of System.out by a logger.(ÌÔÕĞÿÿÿÿÿ8‹ÅøÓ¬1

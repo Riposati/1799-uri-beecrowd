@@ -50,12 +50,12 @@ class Graph {
 
             if (v.equalsIgnoreCase(fim)) return distance;
 
-            analyseFrontOfQueue(distance, v, q);
+            analyseVisitedAndAdj(distance, v, q);
         }
         return 0;
     }
 
-    private void analyseFrontOfQueue(int distance, String v, Queue<Pair> q) {
+    private void analyseVisitedAndAdj(int distance, String v, Queue<Pair> q) {
         if (Boolean.FALSE.equals(vis.get(v))) {
             vis.replace(v, true);
 
