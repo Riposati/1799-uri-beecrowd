@@ -76,7 +76,7 @@ class Graph {
         }
     }
 
-    public void initializeVisited() {
+    public void openVertex() {
         this.vis.forEach((x, y) ->
                 vis.replace(x, false)
         );
@@ -124,7 +124,7 @@ public class Main {
         }
 
         tot = graph.breathFirstSearch("Entrada", "*");
-        graph.initializeVisited();
+        graph.openVertex();
         tot += graph.breathFirstSearch("*", "Saida");
         System.out.println(tot);
     }
