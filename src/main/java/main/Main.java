@@ -50,12 +50,12 @@ class Graph {
 
             if (v.equalsIgnoreCase(fim)) return distance;
 
-            calculateNewDistance(distance, v, q);
+            closeVertexAndGetNewDistance(distance, v, q);
         }
         return 0;
     }
 
-    private void calculateNewDistance(int distance, String v, Queue<Pair> q) {
+    private void closeVertexAndGetNewDistance(int distance, String v, Queue<Pair> q) {
         if (Boolean.FALSE.equals(vis.get(v))) {
             vis.replace(v, true);
 
